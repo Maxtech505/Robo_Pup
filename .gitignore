@@ -1,4 +1,6 @@
+credentials.h
+credential.h
+target/
 .DS_Store
-.idea
-node_modules
-dist
+nul
+Nul

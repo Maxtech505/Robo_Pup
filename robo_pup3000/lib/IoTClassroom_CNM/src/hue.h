@@ -57,8 +57,6 @@ bool setHue(int lightNum, bool HueOn, int HueColor, int HueBright, int HueSat) {
     Serial.printf("No Change - Cancelling CMD\n");
     return false;
   }
-  PrevLightNum = lightNum;
-  PrevOn = HueOn;
   PrevColor=HueColor;
   PrevBright=HueBright;
   PrevSat=HueSat;
